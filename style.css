@@ -631,7 +631,7 @@ footer .text-footer a{
         width: 80%;
         height: 11px;
         background-color: white;
-        margin-top: 650px;
+        margin-top: 678px;
         margin-left: -8rem;
         margin-right: -1rem;
     }
@@ -759,15 +759,15 @@ footer .text-footer a{
 
     .best-quality-section::before {
         content: '';
-        position: absolute;
         top: 0;
-        left: 50%;
-        transform: translateX(-150px);
+        position: absolute;
+        transform: translate(-150px);
         width: 80%;
         height: 11px;
         background-color: #E71A23;
-        margin-top: 199rem;
+        margin-top: 206rem;
         margin-right: 1rem;
+        margin-left: 0px;
     }
     
     .best-quality-section #text-help5{
