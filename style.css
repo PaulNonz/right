@@ -1,4 +1,4 @@
-*,*::before,*::after{
+ *,*::before,*::after{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -118,7 +118,8 @@ img menu.svg{
     display: flex;
     color: white;
     margin-top: 3rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
 }
 
  h1{
@@ -139,11 +140,11 @@ img menu.svg{
     top: 0;
     left: 50%;
     transform: translateX(-115%);
-    width: 40%;
+    width: 43%;
     height: 11px;
     background-color: white;
     margin-top:530px;
-    margin-left: 40px;
+    margin-left: 95px;
 }
 
 .underneath-sections{
@@ -955,21 +956,30 @@ footer .text-footer a{
         width: 10000px;
     }
 
-    .section-to-do .text-9 p{
+    .section-to-do .text-9 #text-p{
         font-size: 1.4rem;
         font-weight: normal;
         margin-top: 1.5rem;
-        width: 85%;;
-        justify-content: left;
-        font-display: left;
+        width: 85%;
+        justify-content:center;
+        font-display: center;
+        margin-left: 1.9rem;
+        margin-right: -2rem;
     } 
 
     .button-to-do{
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin-left: 3rem;
+        margin-right: -2rem;
     } 
-
+    .row{
+       align-items: center;
+       display: flex;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
     .button-to-do .button1{
         padding: 16px;
         border-style: solid;
@@ -984,11 +994,11 @@ footer .text-footer a{
         margin-bottom:2rem;
         margin-left: 2rem;
         margin-top: 1.5rem;
- }
+    }
 
     .button-to-do .button1:hover{
         background-color: #D1161E;
-}
+    }
 
     .button-to-do .button2{
         padding: 16px;
@@ -1002,10 +1012,8 @@ footer .text-footer a{
         color: black;
         background-color:white;
         margin-right: -4rem;
-        margin-left: 1.6rem; ;
-}
-
- 
+        margin-left: 1.7rem; 
+    }
 
     .button-to-do .button2:hover{
         color: rgb(214, 234, 253);
@@ -1015,15 +1023,21 @@ footer .text-footer a{
         width: 100%;
         height:239px;
         background-color: #333333;
-        padding:50px;
+        padding: 1rem;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
-   
-
-    footer p{
+    footer .footer-p{
         color: white;
+        width: 200%;
+        margin-left: -4rem;
+        margin-top: -3.23rem;
+    }
+
+    .sample-section .text-footer{
+        width: 110%;
     }
 
 }
