@@ -568,8 +568,9 @@ footer .text-footer a{
         display: flex;
         justify-content: center;
         object-position: center;
-        background-position:-400px;
+        background-position:-370px;
         background-color: black;
+        overflow: hidden;
     }
 
     .banner-section{
