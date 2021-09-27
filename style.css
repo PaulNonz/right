@@ -560,8 +560,8 @@ footer .text-footer a{
        object-position: bottom;
    }
 
-   .banner-section .banner-heading #banner-text{
-        
+   .banner-section .banner-heading h1{
+        font-size: 2rem;
    }
 
    .banner-section .banner-heading .tc{
@@ -585,125 +585,24 @@ footer .text-footer a{
     background-color: rgb(243, 245, 253);
 } 
 
-
-
-@media (max-width:320px) {
+@media only scr@een and (max-width:550px) {
     
-    .custom-font{
-        font-size: 0;
-    }
-    
-    main{
-        box-sizing: border-box;
-    }
-
     .banner-heading::before {
         content: '';
         top: 0;
         position: absolute;
-        transform:translate( -1rem);
-        width: 1%;
-        height: 11px;
-        background-color: white;
-        margin-top: 678px;
-        margin-left: -1rem;
-        margin-right:1rem;
-        background-color: royalblue;
-    }    
-    
-    header{
-        margin-left: 0rem;
-        width: 120%;
-    } 
-
-    .tek{
-        margin-left: 0;
-        margin-right: 0px;
-        display: unset;
-    }
-    
-    .banner-section .banner-heading #banner-text{
-        font-size: 2rem;
-    }
-
-    .banner-section .banner-heading .services{
-        font-size: 3.2rem;own;
-    }
-
-    .banner-section .banner-heading::before {
-        content: '';
-        top: 0;
-        position: absolute;
-        transform:translate( 1rem);
-        width: 86%;
-        height: 11px;
-        background-color: white;
-        margin-top: 678px;
-        margin-left: -9.5rem;
-        margin-right: -3rem;
-    }
-
-    .help-section .container2 .text-help{
-        font-size: 1.55rem;
-        width: 100%;
-    }
-
-    .help-section .container2 #text-help1{
-        font-size: 1rem;
-        width: 98%;
-    }
-
-    .our-services-section .Our-service-text{
-        font-size: 2.8rem;
-        margin-left:0;
-        margin-right: -2.rem;
-    }
-    .our-services-section .image-ourservices-session{
-       margin-left:0;
-        margin-right: -5rem;
-    }
-
-    .our-services-section .image-ourservices-session .Painting p,
-    .our-services-section .image-ourservices-session .Electrical p,
-    .our-services-section .image-ourservices-session .Repair p{
-        font-size: 1rem;
-        width: 75%;
-    }
-
-    .section-plumbing .text-plumbing{
-        margin-right: 0pt;
-        margin-left: -1.7rem;
-    }
-    .section-plumbing .image-plumbing{
-        align-items: center;
-        margin-left: 1.4rem;
-        width: 93%;
-   }
-  
-   .section-to-do .button-to-do .button1{
-        margin-left: 0.2rem;
-        margin-top: 0rem;
-    }
-
-    .section-to-do .button-to-do .button2{
-        margin-left: 0rem;
-        margin-top: 0rem;
-    }
-
-    .best-quality-section::before {
-        content: '';
-        top: 0;
-        position: absolute;
-        transform: translatex(-150px);
+        transform:translate( -3rem);
         width: 80%;
         height: 11px;
-        background-color: #E71A23;
-        margin-top: 210rem;
+        background-color: white;
+        margin-top: 678px;
+        margin-left: -8rem;
+        margin-right: -1rem;
     }
     
 
-
 }
+
  
 @media (max-width:378px) {
 
@@ -921,7 +820,7 @@ footer .text-footer a{
         width: 80%;
         height: 11px;
         background-color: #E71A23;
-        margin-top: 206.59rem;
+        margin-top: 205rem;
         margin-right: 1rem;
         margin-left: 0px;
     }
@@ -1201,23 +1100,149 @@ footer .text-footer a{
 }
 
 
-@media only scr@een and (max-width:550px) {
+@media (max-width:320px) {
     
+    .custom-font{
+        font-size: 0;
+    }
+    
+    main{
+        box-sizing: border-box;
+    }
+
     .banner-heading::before {
         content: '';
         top: 0;
         position: absolute;
-        transform:translate( -3rem);
-        width: 80%;
+        transform:translate( -1rem);
+        width: 1%;
         height: 11px;
         background-color: white;
         margin-top: 678px;
-        margin-left: -8rem;
-        margin-right: -1rem;
+        margin-left: -1rem;
+        margin-right:1rem;
+        background-color: royalblue;
+    }    
+    
+    header{
+        margin-left: -1rem;
+        width: 120%;
+    } 
+
+    .tek{
+        margin-left: 0;
+        margin-right: 0px;
+        display: unset;
+    }
+
+
+    .banner-section {
+        display: flex;
+        justify-content: center;
+        object-position: center;
+        background-position:-390px;
+        overflow: hidden;
+        margin-left: -6rem;
+    }
+
+    
+    .banner-section .banner-heading #banner-text{
+        font-size: 2rem;
+    }
+
+    .banner-section .banner-heading .services{
+        font-size: 3.2rem;own;
+    }
+
+    .banner-section .banner-heading::before {
+        content: '';
+        top: 0;
+        position: absolute;
+        transform:translate( 1rem);
+        width: 86%;
+        height: 11px;
+        background-color: white;
+        margin-top: 678px;
+        margin-left: -9.5rem;
+        margin-right: -3rem;
+    }
+
+    .help-section .container2 .text-help{
+        font-size: 1.55rem;
+        width: 100%;
+    }
+
+    .help-section .container2 #text-help1{
+        font-size: 1.3rem;
+        width: 98%;
+    }
+
+    .our-services-section .Our-service-text{
+        font-size: 2.8rem;
+        margin-left:0;
+        margin-right: -2.rem;
+    }
+    .our-services-section .image-ourservices-session{
+       margin-left:0;
+        margin-right: -5rem;
+    }
+
+    .our-services-section .image-ourservices-session .Painting p,
+    .our-services-section .image-ourservices-session .Electrical p,
+    .our-services-section .image-ourservices-session .Repair p{
+        font-size: 1rem;
+        width: 75%;
+    }
+
+    .section-plumbing .text-plumbing{
+        margin-right: 0pt;
+        margin-left: -1.7rem;
+    }
+    .section-plumbing .image-plumbing{
+        align-items: center;
+        margin-left: 1.4rem;
+        width: 93%;
+   }
+  
+   .section-to-do .button-to-do .button1{
+        margin-left: 0.2rem;
+        margin-top: 0rem;
+    }
+
+    .section-to-do .button-to-do .button2{
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+
+    .best-quality-section::before {
+        content: '';
+        top: 0;
+        position: absolute;
+        transform: translatex(-150px);
+        width: 80%;
+        height: 11px;
+        background-color: #E71A23;
+        margin-top: 210rem;
+    }
+    
+    .best-quality-section::before {
+        content: '';
+        top: 0;
+        position: absolute;
+        transform: translate(-150px);
+        width: 70%;
+        height: 11px;
+        background-color: #E71A23;
+        margin-top: 210rem;
+        margin-right: -2rem;
+        margin-left: 2rem;
+        background-color: #E71A23;
     }
     
 
 }
+
+
 
 
 
