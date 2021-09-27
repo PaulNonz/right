@@ -1,4 +1,4 @@
- *,*::before,*::after{
+*,*::before,*::after{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -688,7 +688,195 @@ footer .text-footer a{
         width: 200%;
      }
 
-    .
+  
+     
+
+
+
+     .section-plumbing{
+        width: 100%;
+        height:100%;
+        background-color: #104E92;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        padding:4rem;
+    }
+
+    .text-plumbing{
+        flex-direction: column;
+        margin-right: 5rem;
+        margin-top:22rem;
+        margin-bottom: -6.8rem;
+    }
+
+    .text-plumbing p{
+        font-size: 1.15rem;
+        color: white;
+        width: 70%;
+        margin-top: -20rem;
+        margin-bottom: 2rem;
+    }
+
+    .section-plumbing .text-plumbing #plumbing{
+        color: white;
+        font-size: 3.5rem;
+        margin-top: -2.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .section-plumbing .text-plumbing #services{
+        color: white;
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-top: -2.4rem;
+    }
+
+    .image-plumbing{
+        flex-direction: row;
+        margin-right: 9rem;
+        flex-wrap: wrap;
+        width: 85%;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .image-plumbing #img-plumbing1{
+        width: 125%;
+        height: 90%;
+        overflow: hidden; 
+        object-fit:cover; 
+    }
+    
+    .image-plumbing #img-plumbing2{
+        width: 125%;
+        height: 90%;
+        overflow: hidden; 
+        object-fit:cover;
+        margin-right: -2rem;
+    }
+    
+    .image-plumbing #img-plumbing3{
+        width: 125%;
+        height: 90%;
+        overflow: hidden; 
+        object-fit:cover;
+    }
+    
+    .image-plumbing #img-plumbing4{
+        width: 125%;
+        height:90%;
+        overflow: hidden; 
+        object-fit:cover; 
+        margin-right: -2rem;
+    }
+
+
+    .section-to-do{
+        width: 100%;
+        height: 100%;
+        background-color: #FFFFFF;
+        padding: 1.8rem;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-to-do .text-9{
+        font-size:1.7rem;
+        font-weight: bold;
+        width: 10000px;
+    }
+
+    .section-to-do .text-9 #text-p{
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin-top: 1.5rem;
+        width: 85%;
+        justify-content:center;
+        font-display: center;
+    } 
+
+    .button-to-do{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    } 
+    .row{
+       align-items: center;
+       display: flex;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+    .button-to-do .button1{
+        padding: 16px;
+        border-style: solid;
+        border-color: red;
+        border: none;
+        border-radius: 0.2rem;
+        width: 150px;
+        height: 53px;
+        font-weight: bold;
+        color: white;
+        background-color:#E71A23;
+        margin-bottom:2rem;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    .button-to-do .button1:hover{
+        background-color: #D1161E;
+    }
+
+    .button-to-do .button2{
+        padding: 16px;
+        border-style: solid;
+        border-color: black;
+        border: black solid
+        border-radius: 0.3rem;
+        width: 160px;
+        height: 53px;
+        font-weight: bold;
+        color: black;
+        background-color:white;
+        margin-right: -4rem;
+        margin-left: 1.7rem; 
+    }
+
+    .button-to-do .button2:hover{
+        color: rgb(214, 234, 253);
+    }
+
+    footer{
+        width: 100%;
+        height:239px;
+        background-color: #333333;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .text-footer1{
+        color: white;
+        width: 86%;
+        margin-top: -3.23rem;
+        font-size: 0.89rem;
+    }
+
+    .sample-section .text-footer{
+        width: 110%;
+        margin-top:4rem;
+        margin-bottom: -2rem;
+    }
+
+
+
+
 
 
 
